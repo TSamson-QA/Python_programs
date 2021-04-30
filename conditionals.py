@@ -1,3 +1,4 @@
+#With ELIF
 print("Welcome to the Grade Calculator!")
 
 mark = int(input("Please enter your final mark: "))
@@ -9,6 +10,9 @@ elif mark > 65:
 else:
     print("Unfortunately you failed, better luck next time.")
 
+
+
+#Without ELIF
 
 print("Welcome to the Grade Calculator!")
 
