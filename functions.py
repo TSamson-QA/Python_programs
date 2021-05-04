@@ -21,4 +21,15 @@ while f_grade > 100:
     
 final = ((grade_calc(h_grade, a_grade, f_grade)) / 175) * 100
 
-print("Final percentage score: ", final , "%")
+print("Final percentage score: ", int(final) , "%")
+
+if final >= 90:
+    print("Congratulations! You got a A*!")
+elif final > 80:
+    print("Well done, you got a A!")
+elif final > 70:
+    print("Well done, you got a B!")
+elif final > 60:
+    print("Well done, you got a C!")
+else:
+    print("Unfortunately you failed, better luck next time.")
